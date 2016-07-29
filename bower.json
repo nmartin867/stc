@@ -1,32 +1,21 @@
 {
   "name": "stc",
-  "description": "StoryTellerContent",
-  "version": "1.0.0",
-  "authors": [
-    "Nick Martin <>"
-  ],
-  "license": "MIT",
-  "homepage": "",
-  "repository": {
-    "type": "",
-    "url": ""
-  },
-  "keywords": [
-    "bootstrap",
-    "boilerplate",
-    "skeleton",
-    "scaffolding",
-    "scaffold",
-    "theme",
-    "themes",
-    "kickstart",
-    "kickstarter",
-    "micromata",
-    "workflow"
-  ],
+  "private": true,
   "dependencies": {
-    "bootstrap": "3.3.6",
-    "jquery": "2.2.3"
-
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
   }
 }
