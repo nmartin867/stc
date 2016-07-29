@@ -1,0 +1,32 @@
+{
+  "name": "stc",
+  "description": "StoryTellerContent",
+  "version": "1.0.0",
+  "authors": [
+    "Nick Martin <>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [
+    "bootstrap",
+    "boilerplate",
+    "skeleton",
+    "scaffolding",
+    "scaffold",
+    "theme",
+    "themes",
+    "kickstart",
+    "kickstarter",
+    "micromata",
+    "workflow"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "jquery": "2.2.3"
+
+  }
+}
